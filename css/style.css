@@ -680,6 +680,7 @@ ol {
 	-webkit-transition: 0.3s;
 	transition: 0.3s;
 	border-radius: 6px;
+	background-image:"/img/speaker-5.jpg"
 }
 
 .speak-text:after {
@@ -2162,4 +2163,12 @@ ol {
 	.tab-elem .nav-tabs .nav-item {
 		margin-bottom: 10px;
 	}
+}
+.tickets-table .table-features ul li::before {
+	content: "\2022";
+	color: #6063ed;
+	font-weight: bold;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
 }
