@@ -60,8 +60,6 @@ p {
 	font-weight: 400;
 	line-height: 30px;
 	margin: 0 0 15px 0;
-	text-align: justify;
-  	text-justify: inter-word;
 }
 
 img {
@@ -1363,7 +1361,7 @@ ol {
 }
 
 .map .contact-address {
-	background: #6063ED;
+	background: #4ACA59;
 	position: absolute;
 	left: 20%;
 	top: 20%;
@@ -1374,10 +1372,10 @@ ol {
 }
 
 .map .contact-address h4 {
-	color: #fff;
+	color: #ffffff;
 	font-size: 24px;
 	font-weight: 900;
-	margin-bottom: 45px;
+	margin-bottom: 30px;
 }
 
 .map .contact-address li {
@@ -1404,12 +1402,11 @@ ol {
 }
 
 .map .contact-address li span {
-	color: #fff;
-	font-size: 16px;
+	color: #ffffff;
+	font-size: 17px;
 	font-weight: 400;
-	opacity: 0.5;
+	opacity: 1;
 	display: inline-block;
-	margin-left: 33px;
 }
 
 .map .contact-address .triangle-border {
