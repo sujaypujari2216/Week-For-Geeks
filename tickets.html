@@ -20,6 +20,20 @@
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 
+    <script type="application/javascript">
+        var loadCounter = 0;
+
+        console.log(loadCounter);
+        var loaded = function () {
+            loadCounter += 1;
+            if (loadCounter === 2) {
+                $("iframe").attr("height", "500px");
+                $(window).scrollTo(315, 0)
+            }
+            console.log(loadCounter);
+            console.log("Here I am");
+        }
+    </script>
 </head>
 
 <body>
@@ -134,10 +148,15 @@
                 </div>
             </div>
         </div>
-
-        <!-- <div style="width: 100%; padding-top: 50px;"> <iframe
+        <div style="width: 100%; padding-top: 50px;"> <iframe
                 src="https://docs.google.com/forms/d/e/1FAIpQLScGL6gM_siv4YtZeXMqaOPdwAVj6YDOrUa6kj03Q6ThWPsZzw/viewform?embedded=true"
-                id="target" style="border:0" width="100%" height="1600px" allowfullscreen>Loading…</iframe></div> -->
+                id="target" style="border:0" width="100%" height="1600px" allowfullscreen
+                onload="loaded()">Loading…</iframe>
+        </div>
+        <!-- Web Development: https://t.me/WFG_Web
+Machine Learning:  https://t.me/WFG_ML
+Cloud Computing:   https://t.me/WFG_CC
+Android App Dev.:   https://t.me/WFG_Android -->
     </section>
     <!-- Hurry Up End -->
 
@@ -148,10 +167,10 @@
                     <div class="workshop-text">
 
                         <!-- <a href="#" class="more-info primary-btn">More Info</a> -->
-                        <div style="text-align: center;">
+                        <!-- <div style="text-align: center;">
                             <a href="https://forms.gle/D4Wv2sqtjSdEMqkJ7" class="buy-tickets primary-btn"
                                 target="_blank">Click Here To Register</a>
-                        </div>
+                        </div> -->
 
                         <style scoped>
                             .tlinks {
@@ -213,10 +232,10 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="event-widget">
-                        <h4>Companies</h4>
+                        <h4>Our Partner Companies</h4>
                         <ul>
                             <li>Swift Infotech Pvt Ltd</li>
-                            <li>OneDot Pvt Ltd</li>
+                            <li>OneDot Enterprises Pvt Ltd</li>
                             <li>Walstar Technologies Pvt Ltd</li>
                             <li>Globant Technologies Pvt Ltd</li>
                             <li>Appvishwa Software Solution Pvt Ltd</li>
